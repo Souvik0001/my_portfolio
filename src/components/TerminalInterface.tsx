@@ -400,7 +400,7 @@ function SectionOutput({ type }: { type: string }) {
                </thead>
                <tbody>
                  {[
-                   { lvl: 'B.Tech CSE (Info Sec)', inst: 'VIT Vellore', date: '2022-2026', res: '9.13 CGPA' },
+                   { lvl: 'B.Tech CSE (Info Sec)', inst: 'VIT Vellore', date: '2022-2026', res: '9.12 CGPA' },
                    { lvl: '12th (WBCHSE)', inst: 'S.M.C.V. School', date: '2019-2021', res: '90.2%' },
                    { lvl: '10th (ICSE)', inst: 'Mary Immaculate School', date: '2006-2019', res: '95.4%' }
                  ].map((row, i) => (

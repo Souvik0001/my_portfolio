@@ -16,7 +16,7 @@ export default function Background() {
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-cyber-emerald/5 rounded-full blur-[150px] pointer-events-none" />
       
       {/* Noise Texture */}
-      <div className="absolute inset-0 opacity-[0.05] pointer-events-none mix-blend-overlay bg-[url('https://grainy-gradients.vercel.app/noise.svg')]" />
+      <div className="absolute inset-0 opacity-[0.03] pointer-events-none mix-blend-overlay noise-texture" />
     </div>
   );
 }
